@@ -19,7 +19,7 @@
 
             
             $produtoNovo = false;
-                if(isset($_REQUEST["livroNovo"])) {
+                if(isset($_REQUEST["produtoNovo"])) {
             $produtoNovo = true;
             }
             
