@@ -18,10 +18,10 @@
         
 
             
-            $livroNovo = false;
-    if(isset($_REQUEST["livroNovo"])) {
-        $livroNovo = true;
-    }
+            $produtoNovo = false;
+                if(isset($_REQUEST["livroNovo"])) {
+            $produtoNovo = true;
+            }
             
            $produto = array();
            $produto["nomeProduto"] = $nomeProduto;
